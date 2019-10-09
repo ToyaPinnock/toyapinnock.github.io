@@ -1,0 +1,152 @@
+        .gridcontainer {
+            display: grid;
+            grid-template-areas: "head head" " nav main" "nav foot";
+            grid-column-gap: 20px;
+        }
+        
+        .gridcontainer>header {
+            grid-area: head;
+        }
+        
+        .gridcontainer>nav {
+            grid-area: nav;
+        }
+        
+        .gridcontainer>main {
+            grid-area: main;
+        }
+        
+        .gridcontainer>footer {
+            grid-area: foot;
+        }
+        
+        .headcontainer {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            text-align: center;
+            background-image: url("image/greenblue.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            border-bottom: ridge 3px;
+            /*background-image: url("image/blueglass.png");
+        background-repeat:no-repeat;
+        background-size: cover;*/
+        }
+        
+        body {
+            margin: 0;
+            background-color: #D4D2D7;
+        }
+        
+        .dp {
+            border-radius: 35%;
+        }
+        
+        .picture {
+            border-radius: 50%;
+            text-align: center;
+            border: ridge 3px;
+        }
+        
+        #image {
+            text-align: center;
+        }
+        
+        .side1>div {
+            padding: 5px;
+            font-size: 15px;
+            font-weight: bold;
+            font-family: ;
+        }
+        
+        .side2>div {
+            padding: 5px;
+            font-size: 15px;
+            font-weight: bold;
+            font-family: ;
+        }
+        
+        #item1 {
+            font-style: italic;
+            font-size: 12px;
+            font-weight: bold;
+            padding-top: 40px;
+        }
+        
+        #head {
+            font-style: italic;
+            font-size: 13px;
+            font-weight: bold;
+            padding-bottom: 0px;
+        }
+        
+        .workexp {
+            display: flex;
+            flex-direction: row;
+        }
+        
+        .workexperience {
+            display: flex;
+            flex-direction: column;
+            font-size: 15px;
+            flex-wrap: wrap;
+            width: 15%;
+        }
+        
+        .experience>div {
+            display: flex;
+            flex-direction: column;
+            font-size: 15px;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+        }
+        
+        .ok {
+            font-size: 20px;
+        }
+        
+        hr {
+            color: grey;
+            border: 1px solid;
+        }
+        
+        .items {
+            border: ridge 5px;
+            border-color: white;
+            padding-left: 15%;
+            padding-right: 15%;
+            padding-top: 0.2px;
+            margin: 15px;
+        }
+        
+        #jobtitle {
+            font-size: 9px;
+            font-style: italic;
+            color: black;
+            -webkit-text-stroke-width: 0.5px;
+            -webkit-text-stroke-color: green;
+        }
+        
+        #name {
+            font-style: initial;
+            font-size: 20px;
+            color: black;
+            -webkit-text-stroke-width: 1px;
+            -webkit-text-stroke-color: green;
+        }
+        
+        #subheading {
+            font-style: italic;
+            color: #2A3439;
+        }
+        
+        #sidebar {
+            background-color: #4db275;
+            color: #2A3439;
+            height: 100%;
+            padding-top: 30px;
+            padding-right: 20px;
+            border-right: ridge 3px;
+        }
